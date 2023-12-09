@@ -1,0 +1,9 @@
+.custom-input::after {
+  position: absolute;
+  content: "";
+  top: 0.4rem;
+  width: 4px;
+  height: 20px;
+  background: white;
+  display: inline-block;
+}
