@@ -1,30 +1,28 @@
-# React + TypeScript + Vite
+# Typing Learning App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This repository is designed as a learning assesment utilizing Vite, React, and Typescipt. This app is focusing on helping users improve their typing skills.
 
-Currently, two official plugins are available:
+## Screenshots
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![Screenshot](https://github.com/ululazmi41/typinglearn/blob/main/screenshots/Screenshot%202023-12-09%20at%2014-47-22%20Vite%20React%20TS.png?raw=true)
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- Word counter
+- User-friendly interfaces
+- Randomly-generated words
+- Engaging typing experiences
+- Render blur when input is not in focus
 
-- Configure the top-level `parserOptions` property like this:
+## Technologies Used
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+- Vite
+- React
+- Typescript
+- Using hooks for states
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Setup
+
+1. Clone the repository.
+2. Install the dependencies using `npm install`.
+3. Run the development server using `npm run dev`.
