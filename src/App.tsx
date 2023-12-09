@@ -99,7 +99,7 @@ function App() {
   return (
     <div className="w-screen h-screen bg-slate-800 grid content-start">
       <div className='w-[80%] mx-auto mt-2 flex items-center h-max gap-4'>
-        <img src='../public/keyboard.svg' className='w-16 h-14 opacity-50' />
+        <img src='/keyboard.svg' className='w-16 h-14 opacity-50' />
         <h1 className='font-bold text-xl text-white opacity-50 pb-1 cursor-default'>TypingLearn</h1>
       </div>
       <div className='h-[80vh] grid justify-items-center'>
